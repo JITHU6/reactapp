@@ -4,8 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import * as contentful from 'contentful'
 import Course from './Article'
 
-const SPACE_ID = 'lll0yv3z9k4a'
-const ACCESS_TOKEN = 'ECl-GiXE8dwwWFMJGnRn0IANRJqr0E1PnEorgdlvbK8'
+
 const client = contentful.createClient({
     space: SPACE_ID,
     accessToken: ACCESS_TOKEN
